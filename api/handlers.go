@@ -75,7 +75,7 @@ func (s *Server) SetupRouters() {
 
 func (s *Server) Start() {
 	srv := &http.Server{
-		Addr:    ":8086",
+		Addr:    ":8088",
 		Handler: s.router,
 	}
 
